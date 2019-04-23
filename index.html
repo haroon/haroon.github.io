@@ -11,6 +11,19 @@
 		25% { opacity: 0; color: magenta;}
 	}
 </style>
+	
+<script>
+var f = ['🌑', '🌒', '🌓', '🌔', '🌝', '🌖', '🌗', '🌘'];
+
+    function loop() {
+        location.hash = f[Math.floor((Date.now()/100)%f.length)];
+
+        setTimeout(loop, 50);
+    }
+
+    loop();
+</script>
+
 </head>
 <body>
 	<p class="lel">
