@@ -1,5 +1,5 @@
 ---
-title: "My Machine Learning Roadmap"
+title: "Machine Learning Roadmap"
 date: 2023-03-13
 ---
 ## _Linear Algebra_
